@@ -69,6 +69,8 @@ fn initialize(params: InitializeParams) -> Result<()> {
     }
   }
 
+  // TODO: add download_ols logic 
+
   let server_uri = match VoltEnvironment::operating_system().as_deref() {
     | Ok("windows") => ok!(Url::parse("urn:ols.exe")),
     | _ => ok!(Url::parse("urn:ols")),
