@@ -1,0 +1,17 @@
+{
+	"name": "lapce-odin",
+	"extensions": [
+		"cschleiden.vscode-github-actions",
+		"ms-vsliveshare.vsliveshare",
+		"matklad.rust-analyzer",
+		"serayuzgur.crates",
+		"vadimcn.vscode-lldb"
+	],
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"editor.formatOnSave": true,
+		"files.exclude": {
+			"**/LICENSE": true
+		}
+	}
+}
